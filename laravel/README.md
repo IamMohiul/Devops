@@ -31,10 +31,3 @@ stdout_logfile=/var/www/domain/your-worker.log
 `sudo service supervisor restart`
 
 
-#### Change Existing Table column type
-Install doctrine:
-`composer require doctrine/dbal`
-Make Migration file:
-`php artisan make:migration change_(Column_name)_type_in_(table_name)`
-
-
